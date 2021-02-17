@@ -400,6 +400,114 @@
         "name": "fio2-fluxo-5.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fios/Rectangle 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fios\\Rectangle 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fios/animation/fio2-fluxo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fios\\animation\\fio2-fluxo-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fios/animation/fio2-fluxo-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fios\\animation\\fio2-fluxo-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fios/animation/fio2-fluxo-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fios\\animation\\fio2-fluxo-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fios/animation/fio2-fluxo-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fios\\animation\\fio2-fluxo-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fios/animation/fio2-fluxo-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fios\\animation\\fio2-fluxo-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fios/Rectangle 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fios\\Rectangle 1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fios/animation/fio-fluxo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fios\\animation\\fio-fluxo-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fios/animation/fio-fluxo-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fios\\animation\\fio-fluxo-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fios/animation/fio-fluxo-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fios\\animation\\fio-fluxo-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fios/animation/fio-fluxo-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fios\\animation\\fio-fluxo-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fios/animation/fio-fluxo-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fios\\animation\\fio-fluxo-5.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -616,7 +724,7 @@
           "height": 8,
           "layer": "",
           "locked": false,
-          "name": "FioLeft",
+          "name": "FioHor",
           "persistentUuid": "44e755cd-60c1-423d-af6f-f85e4526326f",
           "width": 183,
           "x": 286,
@@ -637,7 +745,7 @@
           "height": 144,
           "layer": "",
           "locked": false,
-          "name": "FioUp",
+          "name": "FioVert",
           "persistentUuid": "127a7352-1c99-4e3e-8c43-aced33106bef",
           "width": 7,
           "x": 462,
@@ -655,35 +763,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 8,
           "layer": "",
           "locked": false,
-          "name": "FioDown",
-          "persistentUuid": "3affdd94-48ce-462b-bde8-97d3d519431d",
-          "width": 6,
-          "x": 296,
-          "y": 336,
-          "zOrder": 17,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "FioRight",
-          "persistentUuid": "19930406-82ca-4f29-9194-135577d27543",
-          "width": 0,
-          "x": 303,
-          "y": 283,
+          "name": "FioHor",
+          "persistentUuid": "3b2b8b9e-525a-49a4-a397-1e94f8603b21",
+          "width": 185,
+          "x": 276,
+          "y": 241,
           "zOrder": 18,
           "numberProperties": [
             {
@@ -692,7 +779,38 @@
             }
           ],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "left",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 152,
+          "layer": "",
+          "locked": false,
+          "name": "FioVert",
+          "persistentUuid": "536ea432-1f08-4952-8d53-a59f9eeddf49",
+          "width": 8,
+          "x": 386,
+          "y": 336,
+          "zOrder": 19,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "up",
+              "value": "0"
+            }
+          ]
         }
       ],
       "objects": [
@@ -879,14 +997,14 @@
           ]
         },
         {
-          "name": "FioRight",
+          "name": "FioHor",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
             {
-              "name": "direção",
-              "value": "left"
+              "name": "left",
+              "value": "1"
             }
           ],
           "behaviors": [],
@@ -901,7 +1019,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Rectangle 1.png",
+                      "image": "assets\\fios\\Rectangle 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -930,7 +1048,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Rectangle 13.png",
+                      "image": "assets\\fios\\Rectangle 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -947,7 +1065,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fio-fluxo-12.png",
+                      "image": "assets\\fios\\animation\\fio-fluxo-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -964,7 +1082,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fio-fluxo-22.png",
+                      "image": "assets\\fios\\animation\\fio-fluxo-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -981,7 +1099,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fio-fluxo-32.png",
+                      "image": "assets\\fios\\animation\\fio-fluxo-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -998,7 +1116,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fio-fluxo-42.png",
+                      "image": "assets\\fios\\animation\\fio-fluxo-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1015,7 +1133,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fio-fluxo-52.png",
+                      "image": "assets\\fios\\animation\\fio-fluxo-5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1037,172 +1155,19 @@
           ]
         },
         {
-          "name": "FioLeft",
+          "name": "FioVert",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
             {
-              "name": "direção",
-              "value": "left"
+              "name": "up",
+              "value": "1"
             }
           ],
           "behaviors": [],
           "animations": [
             {
-              "name": "fio",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Rectangle 1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "fio-com-fluxo",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Rectangle 13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "fio-fluxo-12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "fio-fluxo-22.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "fio-fluxo-32.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "fio-fluxo-42.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "fio-fluxo-53.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "FioDown",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
               "name": "fio2",
               "useMultipleDirections": false,
               "directions": [
@@ -1212,7 +1177,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Rectangle 2.png",
+                      "image": "assets\\fios\\Rectangle 2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1241,7 +1206,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Rectangle 22.png",
+                      "image": "assets\\fios\\Rectangle 2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1258,7 +1223,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fio2-fluxo-1.png",
+                      "image": "assets\\fios\\animation\\fio2-fluxo-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1275,7 +1240,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fio2-fluxo-2.png",
+                      "image": "assets\\fios\\animation\\fio2-fluxo-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1292,7 +1257,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fio2-fluxo-3.png",
+                      "image": "assets\\fios\\animation\\fio2-fluxo-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1309,7 +1274,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fio2-fluxo-4.png",
+                      "image": "assets\\fios\\animation\\fio2-fluxo-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1326,160 +1291,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fio2-fluxo-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "FioUp",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "fio2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Rectangle 2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "fio2-com-fluxo",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Rectangle 22.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "fio2-fluxo-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "fio2-fluxo-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "fio2-fluxo-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "fio2-fluxo-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "fio2-fluxo-5.png",
+                      "image": "assets\\fios\\animation\\fio2-fluxo-5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1710,7 +1522,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "FioLeft",
+                    "FioHor",
                     "RedDisc",
                     "",
                     "",
@@ -1746,7 +1558,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "FioUp",
+                    "FioVert",
                     "RedDisc",
                     "",
                     "",
@@ -1775,7 +1587,55 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "FioHor",
+                    "left",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "FioHor",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "FioVert",
+                    "up",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -1783,18 +1643,7 @@
                     "value": "FlipY"
                   },
                   "parameters": [
-                    "FioDown",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "FlipX"
-                  },
-                  "parameters": [
-                    "FioRight",
+                    "FioVert",
                     "yes"
                   ],
                   "subInstructions": []
